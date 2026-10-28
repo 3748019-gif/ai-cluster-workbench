@@ -1,0 +1,32 @@
+{
+  "fixture_only": true,
+  "not_for_external_member_package": true,
+  "baseline": {
+    "required_count": 3,
+    "practice_ge_12_count": 3,
+    "ai_module_count": 3,
+    "average_credits": "2.50",
+    "required_ai_numerator": 2,
+    "required_ai_denominator": 3,
+    "required_ai_fraction": "2/3",
+    "required_ai_qualifier": "超过半数"
+  },
+  "delta": {
+    "required_count": 4,
+    "practice_ge_12_count": 4,
+    "ai_module_count": 3,
+    "average_credits": "2.58",
+    "required_ai_numerator": 2,
+    "required_ai_denominator": 4,
+    "required_ai_fraction": "2/4",
+    "required_ai_qualifier": "达到半数"
+  },
+  "semantic_boundaries": [
+    "BA外语适用性未知",
+    "两类实验各选一并保留前置例外",
+    "出版不等于本科指定采用",
+    "全校工具开放不等于化学本科落地",
+    "页面更新不等于首次开课",
+    "评论编辑时间不等于修课学期"
+  ]
+}
