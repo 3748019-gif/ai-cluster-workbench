@@ -1,0 +1,1005 @@
+{
+  "synthetic": true,
+  "snapshot_id": "snapshot-test-v1",
+  "unique_total": 161,
+  "pages": [
+    {
+      "cursor": "P1",
+      "next_cursor": "P2",
+      "snapshot_id": "snapshot-test-v1",
+      "reported_total": 161,
+      "records": [
+        {
+          "id": "R001",
+          "text": "Synthetic course experience record 1.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R002",
+          "text": "Synthetic course experience record 2.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R003",
+          "text": "Synthetic course experience record 3.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R004",
+          "text": "Synthetic course experience record 4.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R005",
+          "text": "Synthetic course experience record 5.",
+          "course": "SIM-101",
+          "period": "test-only"
+        }
+      ]
+    },
+    {
+      "cursor": "P2",
+      "next_cursor": "P3",
+      "snapshot_id": "snapshot-test-v1",
+      "reported_total": 161,
+      "records": [
+        {
+          "id": "R006",
+          "text": "Synthetic course experience record 6.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R007",
+          "text": "Synthetic course experience record 7.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R008",
+          "text": "Synthetic course experience record 8.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R009",
+          "text": "Synthetic course experience record 9.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R010",
+          "text": "Synthetic course experience record 10.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R011",
+          "text": "Synthetic course experience record 11.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R012",
+          "text": "Synthetic course experience record 12.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R013",
+          "text": "Synthetic course experience record 13.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R014",
+          "text": "Synthetic course experience record 14.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R015",
+          "text": "Synthetic course experience record 15.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R016",
+          "text": "Synthetic course experience record 16.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R017",
+          "text": "Synthetic course experience record 17.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R018",
+          "text": "Synthetic course experience record 18.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R019",
+          "text": "Synthetic course experience record 19.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R020",
+          "text": "Synthetic course experience record 20.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R021",
+          "text": "Synthetic course experience record 21.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R022",
+          "text": "Synthetic course experience record 22.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R023",
+          "text": "Synthetic course experience record 23.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R024",
+          "text": "Synthetic course experience record 24.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R025",
+          "text": "Synthetic course experience record 25.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R026",
+          "text": "Synthetic course experience record 26.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R027",
+          "text": "Synthetic course experience record 27.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R028",
+          "text": "Synthetic course experience record 28.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R029",
+          "text": "Synthetic course experience record 29.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R030",
+          "text": "Synthetic course experience record 30.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R031",
+          "text": "Synthetic course experience record 31.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R032",
+          "text": "Synthetic course experience record 32.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R033",
+          "text": "Synthetic course experience record 33.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R034",
+          "text": "Synthetic course experience record 34.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R035",
+          "text": "Synthetic course experience record 35.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R036",
+          "text": "Synthetic course experience record 36.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R037",
+          "text": "Synthetic course experience record 37.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R038",
+          "text": "Synthetic course experience record 38.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R039",
+          "text": "Synthetic course experience record 39.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R040",
+          "text": "Synthetic course experience record 40.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R041",
+          "text": "Synthetic course experience record 41.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R042",
+          "text": "Synthetic course experience record 42.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R043",
+          "text": "Synthetic course experience record 43.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R044",
+          "text": "Synthetic course experience record 44.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R045",
+          "text": "Synthetic course experience record 45.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R046",
+          "text": "Synthetic course experience record 46.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R047",
+          "text": "Synthetic course experience record 47.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R048",
+          "text": "Synthetic course experience record 48.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R049",
+          "text": "Synthetic course experience record 49.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R050",
+          "text": "Synthetic course experience record 50.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R051",
+          "text": "Synthetic course experience record 51.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R052",
+          "text": "Synthetic course experience record 52.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R053",
+          "text": "Synthetic course experience record 53.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R054",
+          "text": "Synthetic course experience record 54.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R055",
+          "text": "Synthetic course experience record 55.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R056",
+          "text": "Synthetic course experience record 56.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R057",
+          "text": "Synthetic course experience record 57.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R058",
+          "text": "Synthetic course experience record 58.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R059",
+          "text": "Synthetic course experience record 59.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R060",
+          "text": "Synthetic course experience record 60.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R061",
+          "text": "Synthetic course experience record 61.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R062",
+          "text": "Synthetic course experience record 62.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R063",
+          "text": "Synthetic course experience record 63.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R064",
+          "text": "Synthetic course experience record 64.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R065",
+          "text": "Synthetic course experience record 65.",
+          "course": "SIM-101",
+          "period": "test-only"
+        }
+      ]
+    },
+    {
+      "cursor": "P3",
+      "next_cursor": "P4",
+      "snapshot_id": "snapshot-test-v1",
+      "reported_total": 161,
+      "records": [
+        {
+          "id": "R066",
+          "text": "Synthetic course experience record 66.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R067",
+          "text": "Synthetic course experience record 67.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R068",
+          "text": "Synthetic course experience record 68.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R069",
+          "text": "Synthetic course experience record 69.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R070",
+          "text": "Synthetic course experience record 70.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R071",
+          "text": "Synthetic course experience record 71.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R072",
+          "text": "Synthetic course experience record 72.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R073",
+          "text": "Synthetic course experience record 73.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R074",
+          "text": "Synthetic course experience record 74.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R075",
+          "text": "Synthetic course experience record 75.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R076",
+          "text": "Synthetic course experience record 76.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R077",
+          "text": "Synthetic course experience record 77.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R078",
+          "text": "Synthetic course experience record 78.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R079",
+          "text": "Synthetic course experience record 79.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R080",
+          "text": "Synthetic course experience record 80.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R081",
+          "text": "Synthetic course experience record 81.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R082",
+          "text": "Synthetic course experience record 82.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R083",
+          "text": "Synthetic course experience record 83.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R084",
+          "text": "Synthetic course experience record 84.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R085",
+          "text": "Synthetic course experience record 85.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R086",
+          "text": "Synthetic course experience record 86.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R087",
+          "text": "Synthetic course experience record 87.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R088",
+          "text": "Synthetic course experience record 88.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R089",
+          "text": "Synthetic course experience record 89.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R090",
+          "text": "Synthetic course experience record 90.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R091",
+          "text": "Synthetic course experience record 91.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R092",
+          "text": "Synthetic course experience record 92.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R093",
+          "text": "Synthetic course experience record 93.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R094",
+          "text": "Synthetic course experience record 94.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R095",
+          "text": "Synthetic course experience record 95.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R096",
+          "text": "Synthetic course experience record 96.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R097",
+          "text": "Synthetic course experience record 97.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R098",
+          "text": "Synthetic course experience record 98.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R099",
+          "text": "Synthetic course experience record 99.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R100",
+          "text": "Synthetic course experience record 100.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R101",
+          "text": "Synthetic course experience record 101.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R102",
+          "text": "Synthetic course experience record 102.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R103",
+          "text": "Synthetic course experience record 103.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R104",
+          "text": "Synthetic course experience record 104.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R105",
+          "text": "Synthetic course experience record 105.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R106",
+          "text": "Synthetic course experience record 106.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R107",
+          "text": "Synthetic course experience record 107.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R108",
+          "text": "Synthetic course experience record 108.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R109",
+          "text": "Synthetic course experience record 109.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R110",
+          "text": "Synthetic course experience record 110.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R111",
+          "text": "Synthetic course experience record 111.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R112",
+          "text": "Synthetic course experience record 112.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R113",
+          "text": "Synthetic course experience record 113.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R114",
+          "text": "Synthetic course experience record 114.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R115",
+          "text": "Synthetic course experience record 115.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R116",
+          "text": "Synthetic course experience record 116.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R117",
+          "text": "Synthetic course experience record 117.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R118",
+          "text": "Synthetic course experience record 118.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R119",
+          "text": "Synthetic course experience record 119.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R120",
+          "text": "Synthetic course experience record 120.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R121",
+          "text": "Synthetic course experience record 121.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R122",
+          "text": "Synthetic course experience record 122.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R123",
+          "text": "Synthetic course experience record 123.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R124",
+          "text": "Synthetic course experience record 124.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R125",
+          "text": "Synthetic course experience record 125.",
+          "course": "SIM-101",
+          "period": "test-only"
+        }
+      ]
+    },
+    {
+      "cursor": "P4",
+      "next_cursor": null,
+      "snapshot_id": "snapshot-test-v1",
+      "reported_total": 161,
+      "records": [
+        {
+          "id": "R126",
+          "text": "Synthetic course experience record 126.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R127",
+          "text": "Synthetic course experience record 127.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R128",
+          "text": "Synthetic course experience record 128.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R129",
+          "text": "Synthetic course experience record 129.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R130",
+          "text": "Synthetic course experience record 130.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R131",
+          "text": "Synthetic course experience record 131.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R132",
+          "text": "Synthetic course experience record 132.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R133",
+          "text": "Synthetic course experience record 133.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R134",
+          "text": "Synthetic course experience record 134.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R135",
+          "text": "Synthetic course experience record 135.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R136",
+          "text": "Synthetic course experience record 136.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R137",
+          "text": "Synthetic course experience record 137.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R138",
+          "text": "Synthetic course experience record 138.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R139",
+          "text": "Synthetic course experience record 139.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R140",
+          "text": "Synthetic course experience record 140.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R141",
+          "text": "Synthetic course experience record 141.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R142",
+          "text": "Synthetic course experience record 142.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R143",
+          "text": "Synthetic course experience record 143.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R144",
+          "text": "Synthetic course experience record 144.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R145",
+          "text": "Synthetic course experience record 145.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R146",
+          "text": "Synthetic course experience record 146.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R147",
+          "text": "Synthetic course experience record 147.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R148",
+          "text": "Synthetic course experience record 148.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R149",
+          "text": "Synthetic course experience record 149.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R150",
+          "text": "Synthetic course experience record 150.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R151",
+          "text": "Synthetic course experience record 151.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R152",
+          "text": "Synthetic course experience record 152.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R153",
+          "text": "Synthetic course experience record 153.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R154",
+          "text": "Synthetic course experience record 154.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R155",
+          "text": "Synthetic course experience record 155.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R156",
+          "text": "Synthetic course experience record 156.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R157",
+          "text": "Synthetic course experience record 157.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R158",
+          "text": "Synthetic course experience record 158.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R159",
+          "text": "Synthetic course experience record 159.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R160",
+          "text": "Synthetic course experience record 160.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R161",
+          "text": "Synthetic course experience record 161.",
+          "course": "SIM-101",
+          "period": "test-only"
+        }
+      ]
+    }
+  ]
+}

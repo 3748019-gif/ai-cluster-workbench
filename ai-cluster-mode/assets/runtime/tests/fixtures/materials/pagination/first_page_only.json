@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "claimed_full_text": true,
+  "captured_pages": [
+    {
+      "cursor": "P1",
+      "next_cursor": "P2",
+      "snapshot_id": "snapshot-test-v1",
+      "reported_total": 161,
+      "records": [
+        {
+          "id": "R001",
+          "text": "Synthetic course experience record 1.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R002",
+          "text": "Synthetic course experience record 2.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R003",
+          "text": "Synthetic course experience record 3.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R004",
+          "text": "Synthetic course experience record 4.",
+          "course": "SIM-101",
+          "period": "test-only"
+        },
+        {
+          "id": "R005",
+          "text": "Synthetic course experience record 5.",
+          "course": "SIM-101",
+          "period": "test-only"
+        }
+      ]
+    }
+  ],
+  "actual_saved_unique_count": 5
+}
