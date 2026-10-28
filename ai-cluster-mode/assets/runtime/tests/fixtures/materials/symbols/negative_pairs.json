@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "must_not_treat_as_equivalent": [
+    [
+      "x > 6",
+      "x ≥ 6"
+    ],
+    [
+      "charge = -1",
+      "charge = 1"
+    ],
+    [
+      "SIM-105 OR SIM-125",
+      "SIM-105 AND SIM-125"
+    ],
+    [
+      "students in 2026 cohort only",
+      "all students"
+    ],
+    [
+      "1.5 credits",
+      "15 credits"
+    ]
+  ],
+  "explainable_display_example": [
+    "CO₂",
+    "CO2"
+  ],
+  "display_note": "Plain-text conversion may be explainable for some glyphs, but visual representation and chemical meaning require separate checks; never strip all punctuation globally."
+}
