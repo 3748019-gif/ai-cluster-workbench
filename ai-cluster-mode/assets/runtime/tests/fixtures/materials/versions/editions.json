@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "same_course": "SIM-1A",
+  "same_year": "test-year",
+  "primary": {
+    "id": "A",
+    "pages_available": 8,
+    "footer_declared_total": 15,
+    "revision": "updated-after-disruption",
+    "ends_at_final_exam": true,
+    "upstream_remaining_pages": "login_restricted_unknown",
+    "exam_hour": "20:00"
+  },
+  "alternative": {
+    "id": "B",
+    "pages_available": 10,
+    "revision": "earlier-no-disruption",
+    "exam_hour": "19:00",
+    "ends_at_final_exam": true
+  },
+  "expected_handling": "Keep distinct editions. A completeness unknown beyond 8 visible pages; no stitching and no fabricated missing-page substance."
+}
