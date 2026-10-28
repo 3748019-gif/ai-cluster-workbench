@@ -1,0 +1,25 @@
+{
+  "fixture_only": true,
+  "publish_after": "baseline_candidate_and_review_frozen",
+  "course_id": "SIM-C04",
+  "changes": {
+    "credits": {
+      "old": "2.5",
+      "new": "3.0"
+    },
+    "required": {
+      "old": false,
+      "new": true
+    },
+    "practice_hours": {
+      "old": 8,
+      "new": 12
+    }
+  },
+  "unchanged": [
+    "ai_module",
+    "name",
+    "course_id"
+  ],
+  "instruction": "更新受影响的统计、分母和正文；没有给定新AI模块或其他来源事实。"
+}
