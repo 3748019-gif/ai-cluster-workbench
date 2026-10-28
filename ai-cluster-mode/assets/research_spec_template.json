@@ -1,0 +1,22 @@
+{
+  "objective": "依照本次业务任务书确定并填入准确研究目标",
+  "task_type": "research",
+  "work_kind": "research",
+  "assigned_provider": "kimi",
+  "review_required": false,
+  "rules": [
+    "在创建前替换为当前用户的准确业务规则、版本和外发范围"
+  ],
+  "acceptance": [
+    "完整研究主稿、证据表、准确输出文件及明确未核验范围"
+  ],
+  "validators": [
+    {
+      "kind": "research"
+    }
+  ],
+  "call_limits": {
+    "producer": null,
+    "reviewer": null
+  }
+}
