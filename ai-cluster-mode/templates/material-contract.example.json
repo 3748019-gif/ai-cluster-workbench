@@ -1,0 +1,25 @@
+{
+  "schema_version": "material_contract_v1",
+  "items": [
+    {
+      "key": "catalog",
+      "adapter": "catalog_v1",
+      "source_artifacts": [
+        "REPLACE_REGISTERED_RAW_ARTIFACT_ID"
+      ],
+      "basis_artifact": "REPLACE_REGISTERED_SCOPE_BASIS_ARTIFACT_ID",
+      "target_context": {
+        "entity": "REPLACE_OBSERVED_ENTITY",
+        "version": "REPLACE_OBSERVED_VERSION"
+      },
+      "reading_file": "catalog.html",
+      "pdf_file": "catalog.pdf",
+      "full_visual_required": true,
+      "visual_dpi": 144,
+      "print_profile": {
+        "font_pt": 11,
+        "margin_mm": 18
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "run_id": "my-run-001",
+  "authorization_source": "Replace with current user activation and quota instruction",
+  "roles": {
+    "orchestrator": {
+      "member": "codex",
+      "requested": {
+        "model": null,
+        "reasoning_effort": null,
+        "speed": "preserve_current"
+      },
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_search_queries": null,
+      "max_review_rounds": null,
+      "budget": {
+        "max_observed_spend": null,
+        "minimum_remaining": null,
+        "baseline": null,
+        "unit": null,
+        "max_percent": null,
+        "quota_total": null
+      },
+      "quota_period": "observe_current_client",
+      "fallback": {
+        "authorized": false,
+        "authorization_source": null,
+        "on": [],
+        "requested": null
+      }
+    },
+    "primary_executor": {
+      "member": "kimi",
+      "requested": {
+        "model": null,
+        "reasoning_effort": null,
+        "speed": "preserve_current"
+      },
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_search_queries": null,
+      "max_review_rounds": null,
+      "budget": {
+        "max_observed_spend": null,
+        "minimum_remaining": null,
+        "baseline": null,
+        "unit": null,
+        "max_percent": null,
+        "quota_total": null
+      },
+      "quota_period": "monthly",
+      "fallback": {
+        "authorized": false,
+        "authorization_source": null,
+        "on": [],
+        "requested": null
+      }
+    },
+    "secondary_executor": {
+      "member": "workbuddy",
+      "requested": {
+        "model": null,
+        "reasoning_effort": null,
+        "speed": "preserve_current"
+      },
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_search_queries": null,
+      "max_review_rounds": null,
+      "budget": {
+        "max_observed_spend": null,
+        "minimum_remaining": null,
+        "baseline": null,
+        "unit": null,
+        "max_percent": null,
+        "quota_total": null
+      },
+      "quota_period": "observe_current_client",
+      "fallback": {
+        "authorized": false,
+        "authorization_source": null,
+        "on": [],
+        "requested": null
+      }
+    }
+  }
+}

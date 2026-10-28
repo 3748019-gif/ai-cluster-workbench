@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "run_id": "dynamic-run-observe-before-use",
+  "authorization_source": "Replace with current user instructions and current quota constraints",
+  "roles": {
+    "orchestrator": {
+      "member": "codex",
+      "requested": {
+        "model": null,
+        "reasoning_effort": null,
+        "speed": "preserve_current"
+      },
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_search_queries": null,
+      "max_review_rounds": null,
+      "budget": {
+        "max_observed_spend": null,
+        "minimum_remaining": null,
+        "baseline": null,
+        "unit": null,
+        "max_percent": null,
+        "quota_total": null
+      },
+      "quota_period": "observe_current_client",
+      "fallback": {
+        "authorized": false,
+        "authorization_source": null,
+        "on": [],
+        "requested": null
+      }
+    },
+    "primary_executor": {
+      "member": "kimi",
+      "requested": {
+        "model": null,
+        "reasoning_effort": null,
+        "speed": "preserve_current"
+      },
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_search_queries": null,
+      "max_review_rounds": null,
+      "budget": {
+        "max_observed_spend": null,
+        "minimum_remaining": null,
+        "baseline": null,
+        "unit": null,
+        "max_percent": null,
+        "quota_total": null
+      },
+      "quota_period": "monthly",
+      "fallback": {
+        "authorized": false,
+        "authorization_source": null,
+        "on": [],
+        "requested": null
+      }
+    },
+    "secondary_executor": {
+      "member": "workbuddy",
+      "requested": {
+        "model": null,
+        "reasoning_effort": null,
+        "speed": "preserve_current"
+      },
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_search_queries": null,
+      "max_review_rounds": null,
+      "budget": {
+        "max_observed_spend": null,
+        "minimum_remaining": null,
+        "baseline": null,
+        "unit": null,
+        "max_percent": null,
+        "quota_total": null
+      },
+      "quota_period": "observe_current_client",
+      "fallback": {
+        "authorized": false,
+        "authorization_source": null,
+        "on": [],
+        "requested": null
+      }
+    }
+  },
+  "assignment_v1": {
+    "version": 1,
+    "authorization_source": "Replace with current assignment authorization; shared budget authority persists through model/session changes",
+    "preferred_member": "workbuddy",
+    "candidates": [
+      {
+        "id": "wb_current",
+        "member": "workbuddy",
+        "actor_id": "observe-wb_current-actor",
+        "session_id": "observe-wb_current-session",
+        "roles": [
+          "executor",
+          "reviewer"
+        ],
+        "availability": "unverified",
+        "capabilities": {
+          "drafting": "unverified",
+          "local_processing": "unverified",
+          "independent_review": "unverified"
+        },
+        "inputs_readable": null,
+        "outputs_writable": null,
+        "model": {
+          "requested": null,
+          "observed": null,
+          "observation_source": null,
+          "observed_at": null
+        },
+        "isolation": {
+          "status": "unverified",
+          "evidence": null,
+          "inherits_actors": [],
+          "shared_context": "unverified"
+        },
+        "quota": {
+          "status": "unknown",
+          "unit": null,
+          "value": null,
+          "observation_source": null
+        },
+        "handoff_mode": "file"
+      },
+      {
+        "id": "kimi_current",
+        "member": "kimi",
+        "actor_id": "observe-kimi_current-actor",
+        "session_id": "observe-kimi_current-session",
+        "roles": [
+          "executor",
+          "reviewer"
+        ],
+        "availability": "unverified",
+        "capabilities": {
+          "drafting": "unverified",
+          "local_processing": "unverified",
+          "independent_review": "unverified"
+        },
+        "inputs_readable": null,
+        "outputs_writable": null,
+        "model": {
+          "requested": null,
+          "observed": null,
+          "observation_source": null,
+          "observed_at": null
+        },
+        "isolation": {
+          "status": "unverified",
+          "evidence": null,
+          "inherits_actors": [],
+          "shared_context": "unverified"
+        },
+        "quota": {
+          "status": "unknown",
+          "unit": null,
+          "value": null,
+          "observation_source": null
+        },
+        "handoff_mode": "file"
+      },
+      {
+        "id": "codex",
+        "member": "codex",
+        "actor_id": "observe-codex-actor",
+        "session_id": "observe-codex-session",
+        "roles": [
+          "executor"
+        ],
+        "availability": "unverified",
+        "capabilities": {
+          "drafting": "unverified",
+          "local_processing": "unverified",
+          "independent_review": "unverified"
+        },
+        "inputs_readable": null,
+        "outputs_writable": null,
+        "model": {
+          "requested": null,
+          "observed": null,
+          "observation_source": null,
+          "observed_at": null
+        },
+        "isolation": {
+          "status": "unverified",
+          "evidence": null,
+          "inherits_actors": [],
+          "shared_context": "unverified"
+        },
+        "quota": {
+          "status": "unknown",
+          "unit": null,
+          "value": null,
+          "observation_source": null
+        },
+        "handoff_mode": "file"
+      },
+      {
+        "id": "codex_isolated",
+        "member": "codex",
+        "actor_id": "observe-codex_isolated-actor",
+        "session_id": "observe-codex_isolated-session",
+        "roles": [
+          "reviewer"
+        ],
+        "availability": "unverified",
+        "capabilities": {
+          "drafting": "unverified",
+          "local_processing": "unverified",
+          "independent_review": "unverified"
+        },
+        "inputs_readable": null,
+        "outputs_writable": null,
+        "model": {
+          "requested": null,
+          "observed": null,
+          "observation_source": null,
+          "observed_at": null
+        },
+        "isolation": {
+          "status": "unverified",
+          "evidence": null,
+          "inherits_actors": [],
+          "shared_context": "unverified"
+        },
+        "quota": {
+          "status": "unknown",
+          "unit": null,
+          "value": null,
+          "observation_source": null
+        },
+        "handoff_mode": "file"
+      }
+    ]
+  }
+}

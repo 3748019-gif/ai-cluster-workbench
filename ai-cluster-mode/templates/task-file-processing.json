@@ -1,0 +1,24 @@
+{
+  "objective": "Replace with explicit local processing objective",
+  "task_type": "file_processing",
+  "task_route": "file_processing",
+  "route_reason": "Deterministic handling of registered frozen inputs",
+  "rules": [
+    "Preserve exact source data and version"
+  ],
+  "acceptance": [
+    "Current exact candidates pass material contract and existing release gates"
+  ],
+  "validators": [
+    {
+      "kind": "json",
+      "required_fields": [
+        "task_id"
+      ]
+    }
+  ],
+  "semantic_judgment": false,
+  "content_contributors": [
+    "codex"
+  ]
+}
