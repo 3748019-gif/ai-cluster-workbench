@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI集群工作模式"
+  short_description: "Codex统一调度、按任务配对已授权执行者与独立复核者的桌面集群工作模式"
+  default_prompt: "使用 $ai-cluster-mode，读取我提供的业务任务包，按任务配对执行者与独立复核者并验收。"
+policy:
+  allow_implicit_invocation: true
