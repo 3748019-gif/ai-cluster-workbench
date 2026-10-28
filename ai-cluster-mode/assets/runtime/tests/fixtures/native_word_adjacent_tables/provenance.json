@@ -1,0 +1,69 @@
+{
+  "purpose": "Replay native Word merging of directly adjacent canonical tables. The failure remains rejected; this is not a repaired native export.",
+  "files": [
+    {
+      "fixture": "before_native.docx",
+      "sha256": "36181f33c787ba7b65444b4ff45329cbd521fc2dbfed55c3e24817ad0de3269e",
+      "bytes": 2855,
+      "source_relative_to_pilot": "inputs/full-template.docx",
+      "table_rows": [
+        9,
+        3
+      ],
+      "table_row_cell_counts": [
+        [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        [
+          6,
+          6,
+          6
+        ]
+      ],
+      "evidence_kind": "actual pre-native generated template"
+    },
+    {
+      "fixture": "word_merged_failure.docx",
+      "sha256": "4c893f4e4a454a7802ddd6837e1930303baf2779a09f85641faac435e1f3e176",
+      "bytes": 12777,
+      "source_relative_to_pilot": "exchange/TASK-20261016-0001/full.docx",
+      "table_rows": [
+        12
+      ],
+      "table_row_cell_counts": [
+        [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          6,
+          6,
+          6
+        ]
+      ],
+      "evidence_kind": "metadata-sanitized derivative of actual native Word save failure",
+      "original_sha256": "4415b42ba49dda7cccef1897190108cb05f799e22893668e01405992e27be5c3",
+      "publication_transform": {
+        "changed_parts": [
+          "docProps/core.xml"
+        ],
+        "purpose": "remove personal document properties",
+        "all_other_parts_byte_identical": true,
+        "original_preserved_locally": true
+      }
+    }
+  ]
+}
