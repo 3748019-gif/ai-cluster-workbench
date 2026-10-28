@@ -1,0 +1,59 @@
+{
+  "fixture_only": true,
+  "school": "模拟研修大学",
+  "scope": {
+    "college": "模拟化学学院",
+    "degree": "BSc Chemistry",
+    "entry_cohort": 2026
+  },
+  "courses": [
+    {
+      "course_id": "SIM-C01",
+      "name": "计算基础A",
+      "credits": "3.0",
+      "required": true,
+      "practice_hours": 16,
+      "ai_module": true
+    },
+    {
+      "course_id": "SIM-C02",
+      "name": "数据处理B",
+      "credits": "2.0",
+      "required": true,
+      "practice_hours": 12,
+      "ai_module": false
+    },
+    {
+      "course_id": "SIM-C03",
+      "name": "分子模拟C",
+      "credits": "2.5",
+      "required": true,
+      "practice_hours": 8,
+      "ai_module": true
+    },
+    {
+      "course_id": "SIM-C04",
+      "name": "建模实验D",
+      "credits": "2.5",
+      "required": false,
+      "practice_hours": 8,
+      "ai_module": false
+    },
+    {
+      "course_id": "SIM-C05",
+      "name": "机器学习E",
+      "credits": "3.0",
+      "required": false,
+      "practice_hours": 20,
+      "ai_module": true
+    },
+    {
+      "course_id": "SIM-C06",
+      "name": "信息学F",
+      "credits": "2.0",
+      "required": false,
+      "practice_hours": 0,
+      "ai_module": false
+    }
+  ]
+}
