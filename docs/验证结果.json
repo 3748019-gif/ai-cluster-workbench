@@ -1,0 +1,41 @@
+{
+  "distribution_version": "2026.10.28-v2.4-repository.1",
+  "validation_date": "2026-10-28",
+  "python_version": "3.12.14",
+  "distinct_local_tests_passed": 513,
+  "core_tests": 450,
+  "script_tests": 63,
+  "outside_cwd_repeat_core_tests": 450,
+  "repeat_not_added_to_distinct_count": true,
+  "historical_excluded_test": "test_release_checks.ReleaseChecksTest.test_span_rewrite_preserves_source_id_inside_local_filename",
+  "new_test_exclusions": 0,
+  "checks": {
+    "verify-before": "passed",
+    "core-root": "passed",
+    "core-outside": "passed",
+    "scripts": "passed",
+    "skill-validator": "unavailable_missing_PyYAML",
+    "profile-external": "passed",
+    "init-external-profile": "passed",
+    "doctor": "passed",
+    "smoke": "passed",
+    "verify-after": "passed"
+  },
+  "alternative_skill_validation": "Ruby YAML.safe_load and explicit name, description, fields, UI prompt checks: passed",
+  "python_files_unchanged": 72,
+  "code_templates_byte_identical_to_baseline": true,
+  "privacy_scan": "No known personal identifiers, home paths, historical usage records, or common secret patterns found; not a universal secret-free guarantee",
+  "docx_transform": "One fixture docProps/core.xml only; all other ZIP parts byte-identical; provenance updated",
+  "no_external_AI_calls": true,
+  "new_real_GUI_verification": false,
+  "Edge_download_test": false,
+  "native_Word_WPS_page_QA": false,
+  "LibreOffice_soffice_QA": "Skipped: intentionally disabled locally",
+  "remote_creation_or_upload": false,
+  "license_update": {
+    "license": "MIT",
+    "runtime_byte_identical_to_before_license_update": true,
+    "full_regression_reused_unchanged_code": true,
+    "license_and_metadata_checks": "passed"
+  }
+}

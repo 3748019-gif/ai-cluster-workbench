@@ -1,0 +1,28 @@
+{
+  "baseline_version": "2026.10.16-v2.4",
+  "distribution_version": "2026.10.28-v2.4-repository.1",
+  "source_zip_sha256": "5ac0cd0c434ce2d49417a3b2590f9aea9ad436418651921e21c1cd181c44a123",
+  "removed_historical_files": 85,
+  "modified_paths": [
+    "MANIFEST_SHA256.json",
+    "SKILL.md",
+    "START_HERE.md",
+    "agents/openai.yaml",
+    "assets/runtime/tests/fixtures/native_word_adjacent_tables/provenance.json",
+    "assets/runtime/tests/fixtures/native_word_adjacent_tables/word_merged_failure.docx",
+    "assets/source_freeze.json",
+    "references/freeze-and-capabilities.md",
+    "references/run-profile.md",
+    "新对话启动提示词.txt"
+  ],
+  "all_python_files_byte_identical": true,
+  "all_runtime_and_profile_templates_byte_identical": true,
+  "no_remote_actions": true,
+  "no_new_external_model_calls": true,
+  "license": "MIT",
+  "license_authorized_by_user": true,
+  "license_added_paths": [
+    "LICENSE",
+    "ai-cluster-mode/LICENSE"
+  ]
+}
