@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "snapshot_id": "table-test-v1",
+  "components": [
+    {
+      "id": "table-a",
+      "headers": [
+        "Group",
+        "Requirement",
+        "Credits"
+      ],
+      "rows": [
+        [
+          "Physical",
+          "SIM-105 OR SIM-125",
+          3
+        ],
+        [
+          "Synthetic",
+          "SIM-108 OR SIM-115",
+          3
+        ]
+      ],
+      "note": "Both groups required (AND). Required total ≥ 6; special waiver must not be inferred."
+    },
+    {
+      "id": "table-b",
+      "headers": [
+        "Course",
+        "Required for",
+        "Credits"
+      ],
+      "rows": [
+        [
+          "SIM-105",
+          "Group choice",
+          3
+        ],
+        [
+          "SIM-125",
+          "Group choice",
+          3
+        ]
+      ],
+      "note": "Example credits, not a real university rule."
+    }
+  ]
+}
