@@ -1,0 +1,25 @@
+# Personal/runtime material belongs outside this repository.
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+*.log
+/local-review/
+/workspaces/
+/runs/
+/business/
+/inputs/
+/outputs/
+/.cluster/
+/run-profile*.json
+# Keep ai-cluster-mode/assets/runtime/.cluster/*.json: required static templates.

@@ -1,0 +1,4 @@
+# Frozen payloads use byte hashes. Disable automatic newline conversion.
+* -text
+*.docx binary
+*.pdf binary
