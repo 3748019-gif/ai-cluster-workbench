@@ -1,0 +1,12 @@
+{
+  "application_model_changed": false,
+  "authorization_source": "用户2026-09-30要求保留Sol与Astra Ultra、极高中控配置模式；默认Sol保留当前档位，不切换应用模型",
+  "configured_at": "2026-09-30T03:37:31.447+00:00",
+  "requested": {
+    "model": "gpt-6.1-sol",
+    "preset": "gpt-6.1-sol/current",
+    "reasoning_effort": null
+  },
+  "schema_version": 1,
+  "source": "project_config"
+}

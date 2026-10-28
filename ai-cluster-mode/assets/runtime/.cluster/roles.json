@@ -1,0 +1,65 @@
+{
+  "bindings": {
+    "orchestrator": "codex",
+    "primary_executor": "kimi",
+    "secondary_executor": "workbuddy"
+  },
+  "members": {
+    "codex": {
+      "capabilities": [
+        "general"
+      ],
+      "display_name": "Codex",
+      "roles": [
+        "orchestrator",
+        "producer",
+        "finalizer"
+      ],
+      "transport": "local",
+      "verification": "local",
+      "verification_status": "existing_member_per_task_validation"
+    },
+    "kimi": {
+      "capabilities": [
+        "second_analysis",
+        "file_work",
+        "public_research",
+        "drafting",
+        "independent_review"
+      ],
+      "display_name": "Kimi",
+      "roles": [
+        "producer",
+        "reviewer",
+        "researcher",
+        "drafter"
+      ],
+      "transport": "gui",
+      "verification": "verify actual client capability per work item",
+      "verification_status": "existing_member_per_task_validation"
+    },
+    "workbuddy": {
+      "capabilities": [
+        "public_research",
+        "drafting",
+        "independent_review"
+      ],
+      "display_name": "WorkBuddy",
+      "roles": [
+        "producer",
+        "reviewer",
+        "researcher",
+        "drafter"
+      ],
+      "transport": "gui",
+      "verification": "verify actual client capability per work item",
+      "verification_status": "existing_member_per_task_validation"
+    }
+  },
+  "role_names": {
+    "orchestrator": "调度中心",
+    "primary_executor": "主执行者",
+    "secondary_executor": "副执行者"
+  },
+  "schema_version": 1
+}

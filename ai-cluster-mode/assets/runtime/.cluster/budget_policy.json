@@ -1,0 +1,35 @@
+{
+  "authorization_source": "User request and taskbook 2026-09-29: existing quota, public research and necessary followups without artificial count caps",
+  "policy_id": "user_authorized_open_research_20260929",
+  "providers": {
+    "kimi": {
+      "allowed_public_domains": null,
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_observed_spend": null,
+      "max_review_rounds": null,
+      "max_search_queries": null,
+      "minimum_remaining": null,
+      "network_access": "allowed_as_needed",
+      "quota_policy": "observe_and_report"
+    },
+    "workbuddy": {
+      "allowed_public_domains": null,
+      "max_calls": null,
+      "max_calls_per_phase": null,
+      "max_calls_per_work_item": null,
+      "max_observed_spend": null,
+      "max_review_rounds": null,
+      "max_search_queries": null,
+      "minimum_remaining": null,
+      "network_access": "allowed_as_needed",
+      "quota_policy": "observe_and_report"
+    }
+  },
+  "schema_version": 2,
+  "source_content_is_instruction": false,
+  "unauthorized_topup_allowed": false,
+  "unauthorized_upgrade_allowed": false,
+  "unrelated_private_data_access_allowed": false
+}

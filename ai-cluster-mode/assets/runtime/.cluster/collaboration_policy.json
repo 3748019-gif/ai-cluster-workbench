@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "result_protocol": "member_content_v1",
+  "authority": "2026-09-30 用户明确授权实际协作磨合优化",
+  "attachment_channel": "codex_native_edge",
+  "quota_policy": "observe_only_no_purchase",
+  "quota_guidance": {
+    "authority": "2026-10-01 用户要求节省Kimi月额度",
+    "kimi": "优先复用已完成研究与冻结成果；合并必要业务判断；确定性检查本地完成；不为技术修复或重复核验重新调用。必要独立核验仍保留，不降低证据门槛。",
+    "hard_call_cap": null
+  },
+  "model_settings": "preserve_actual_selection",
+  "receipt_consumption": "unknown_until_actual_acknowledgement",
+  "activation": "new_research_tasks_only_existing_tasks_frozen",
+  "workbuddy_model_guidance": {
+    "authority": "2026-10-01 用户明确授权条件回退",
+    "preferred": "Deepseek-V4.1-Flash",
+    "fallback": "Deepseek-V4 Pro",
+    "trigger": "模型确实不可用，由Codex通过客户端切换；网页访问失败、资料缺口、协议拒收不是触发条件",
+    "no_purchase_or_upgrade": true
+  }
+}
